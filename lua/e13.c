@@ -34,6 +34,7 @@ int main(int argc, char* argv[])
 	//load lua base libraries
 	L = luaL_newstate();
 	
+	luaL_openlibs(L);
 	//load the script
 	luaL_dofile(L, "e12.lua");
 
