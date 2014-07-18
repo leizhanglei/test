@@ -1,0 +1,7 @@
+git checkout -b xxx  //根据当前分支，在本地创建新的分支
+git add * //添加新的文件
+git commit -a //提交修改
+git push -u origin xxx //将本地修改同步到远程
+git branch -a //显示所有分支
+git merge xxx  //将指定的分支合并到当前分支
+git reset --hard //恢复到本地的最后提交
